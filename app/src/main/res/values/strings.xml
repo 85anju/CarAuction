@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CarAuction</string>
+    <string name="spalsh_screen">here is a spalsh screen</string>
+    <string name="Show_Password">Show Password</string>
+    <string name="SIGN_UP">SIGN IN</string>
+    <string name="email_id">email id</string>
+    <string name="password">password</string>
+    <string name="User_Login">User Login</string>
+    <string name="welcome">||  DeaL in    ||</string>
+    <string name="enter_mail">Enter your mail </string>
+    <string name="enter_pass">Enter your password</string>
+    <string name="Register">Register</string>
+    <string name="h2c">HAMMER - TO -CLICK </string>
+    <string name="submit">Submit</string>
+    <string name="go4it">GO FOR IT</string>
+    <string name="hand">1/2/3 rd hand user </string>
+    <string name="date">Purchase date </string>
+    <string name="avg">Average</string>
+    <string name="comp_name">Company name</string>
+
+    <string name="paste">paste product id</string>
+    <string name="startrs">Starting price</string>
+    <string name="approach">mini approach towards car auction</string>
+    <string name="carname">Car Name </string>
+    <string name="already">Already have an account? LOGIN here</string>
+
+    <string name="notalready">Not have an account? REGISTER here</string>
+
+    <string name="Log_out">Log Out</string>
+</resources>

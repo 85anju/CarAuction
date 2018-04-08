@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "92393951579",
+    "firebase_url": "https://carauction-3c3a3.firebaseio.com",
+    "project_id": "carauction-3c3a3",
+    "storage_bucket": "carauction-3c3a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92393951579:android:2ede00a72357603b",
+        "android_client_info": {
+          "package_name": "com.example.hp.carauction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92393951579-0udfake8k1lacvge39s0j8d9vef2j2q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPup6EzkjotxOvOamfnb4K1-YCTKC3zRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

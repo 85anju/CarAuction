@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.carauction.ProfileActivity"
+   tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ImageButton
+        android:id="@+id/Buttonbid"
+        android:layout_width="150dp"
+        android:layout_height="213dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:onClick="sendmsg"
+        app:srcCompat="@drawable/bid2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/ButtonSell"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMyp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonMyp"
+        android:layout_width="177dp"
+        android:layout_height="187dp"
+        android:onClick="myp"
+        app:srcCompat="@drawable/myp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogout"
+        app:layout_constraintTop_toBottomOf="@+id/Buttonbid" />
+
+    <ImageButton
+        android:id="@+id/ButtonSell"
+        android:layout_width="142dp"
+        android:layout_height="202dp"
+        android:onClick="send"
+        app:srcCompat="@drawable/sell3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/Buttonbid"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMyp" />
+
+    <ImageButton
+        android:id="@+id/buttonLogout"
+        android:layout_width="295dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMyp"
+        app:srcCompat="@drawable/logout" />
+
+
+</android.support.constraint.ConstraintLayout>
+

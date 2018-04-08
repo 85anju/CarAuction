@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/perfect"
+    tools:context="com.example.hp.carauction.BidActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+        <ImageButton
+            android:id="@+id/Bstartbid"
+            android:layout_width="116dp"
+            android:layout_height="76dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+
+            app:srcCompat="@drawable/gobid"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/listViewProducts"
+            android:layout_marginBottom="42dp"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            tools:layout_editor_absoluteY="21dp"
+            tools:layout_editor_absoluteX="127dp" />
+
+        <ListView
+            android:id="@+id/listViewProducts"
+            android:layout_width="351dp"
+            android:layout_height="368dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Bstartbid" />
+
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.carauction.MyBid"
+    android:background="@drawable/ff"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/Editgiveid"
+        android:layout_width="325dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:hint="@string/paste"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/Editgivebid"
+        app:layout_constraintTop_toBottomOf="@+id/notice"
+        tools:layout_editor_absoluteY="111dp"
+        tools:layout_editor_absoluteX="-8dp" />
+
+    <EditText
+        android:id="@+id/Editgivebid"
+        android:layout_width="310dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="enter your bid"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/BidAdd"
+        app:layout_constraintTop_toBottomOf="@+id/Editgiveid"
+        tools:layout_editor_absoluteY="210dp"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <Button
+        android:id="@+id/BidAdd"
+        android:layout_width="118dp"
+        android:layout_height="54dp"
+        android:text="Add BId"
+        android:background="@drawable/ff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textpname"
+        app:layout_constraintTop_toBottomOf="@+id/Editgivebid" />
+
+    <TextView
+        android:id="@+id/textpname"
+        android:layout_width="193dp"
+        android:layout_height="41dp"
+        android:text="@string/carname"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textpcomp"
+        app:layout_constraintTop_toBottomOf="@+id/BidAdd" />
+
+    <TextView
+        android:id="@+id/textpcomp"
+        android:layout_width="188dp"
+        android:layout_height="50dp"
+        android:text="@string/comp_name"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpname"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="332dp"
+        android:layout_height="80dp"
+        android:background="@color/notice"
+        android:text="Copy the id from display and then paste it"
+        android:gravity="center"
+         android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/Editgiveid" />
+
+</android.support.constraint.ConstraintLayout>

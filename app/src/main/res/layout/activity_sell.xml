@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sell"
+    tools:context="com.example.hp.carauction.SellActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/Textcarname"
+        android:layout_width="273dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="@string/carname"
+        android:inputType="textCapWords"
+        android:textColor="@color/white"
+
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TextAvg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextcarComp" />
+
+    <EditText
+        android:id="@+id/Textprice"
+        android:layout_width="217dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="@string/startrs"
+        android:textStyle="bold"
+
+        android:textColorHint="@color/white"
+        android:inputType="number"
+
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdd"
+        app:layout_constraintTop_toBottomOf="@+id/Texttypeuser"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <EditText
+        android:id="@+id/TextcarComp"
+        android:layout_width="311dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="@string/comp_name"
+        android:inputType="textCapWords"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Textcarname"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextAvg"
+        android:layout_width="152dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:hint="@string/avg"
+        android:inputType="number"
+        android:textStyle="bold"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/Texttypeuser"
+        app:layout_constraintTop_toBottomOf="@+id/Textcarname"
+        app:layout_constraintRight_toLeftOf="@+id/Textbuydate"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/Textbuydate"
+        android:layout_width="161dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:hint="@string/date"
+        android:inputType="datetime"
+        android:textStyle="bold"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/TextAvg"
+        app:layout_constraintBottom_toTopOf="@+id/Texttypeuser"
+        app:layout_constraintTop_toBottomOf="@+id/Textcarname" />
+
+    <EditText
+        android:id="@+id/Texttypeuser"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="@string/hand"
+        android:textStyle="bold"
+
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/Textprice"
+        app:layout_constraintTop_toBottomOf="@+id/TextAvg" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Textprice" />
+
+</android.support.constraint.ConstraintLayout>
